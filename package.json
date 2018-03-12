@@ -1,0 +1,22 @@
+{
+    "name": "vscode-zenburn-theme",
+    "displayName": "vscode-zenburn-theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "ryanolsonx",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zenburn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zenburn-color-theme.json"
+            }
+        ]
+    }
+}
