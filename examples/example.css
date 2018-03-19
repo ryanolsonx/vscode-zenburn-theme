@@ -1,0 +1,14 @@
+body {
+  background: image-url('backgrounds/bg.png') no-repeat 50% 0 fixed;
+  min-width: 500px;
+  width: 100%;
+}
+
+a {
+  color: #dedede;
+  text-decoration: underline;
+}
+
+.panel {
+  flex: 1 100%;
+}
