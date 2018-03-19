@@ -19,9 +19,23 @@
     "activityBar.background": "#313633",
     "activityBarBadge.background": "#7f9f7f",
     "activityBarBadge.foreground": "#313633",
+    "terminal.foreground": "#dcdccc",
+    "terminal.selectionBackground": "#686868aa",
     "editorGutter.modifiedBackground": "#fffb9d",
     "editorGutter.addedBackground": "#87ae86",
-    "editorGutter.deletedBackground": "#cc9393"
+    "editorGutter.deletedBackground": "#cc9393",
+    "terminal.ansiRed": "#ecbcbc",
+    "terminal.ansiGreen": "#7f9f7f",
+    "terminal.ansiYellow": "#f0dfaf",
+    "terminal.ansiBlue": "#8cd0d3",
+    "terminal.ansiMagenta": "#dca3a3",
+    "terminal.ansiCyan": "#8cd0d3",
+    "terminal.ansiBrightRed": "#ecbcbc",
+    "terminal.ansiBrightGreen": "#7f9f7f",
+    "terminal.ansiBrightYellow": "#f0dfaf",
+    "terminal.ansiBrightBlue": "#8cd0d3",
+    "terminal.ansiBrightMagenta": "#dca3a3",
+    "terminal.ansiBrightCyan": "#8cd0d3"
   },
   "tokenColors": [
     {
@@ -763,6 +777,12 @@
       "scope": "punctuation.section.property-list.end.bracket.curly.css",
       "settings": {
         "foreground": "#efef8f"
+      }
+    },
+    {
+      "scope": "storage.type.function",
+      "settings": {
+        "fontStyle": ""
       }
     }
   ]
