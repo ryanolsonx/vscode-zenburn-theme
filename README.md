@@ -1,13 +1,110 @@
-# README
-## This is the README for your extension "vscode-zenburn-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# VS Code Zenburn Theme
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+> Zenburn is a low-contrast color scheme for Vim. It's easy for your eyes and designed to keep you in the zone for long programming sessions.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+I really enjoy [Zenburn][0]. I noticed that the textmate port in the [VS Code marketplace][1] was lacking in many areas and hoped that I could align the syntax with the [Vim][2] version of zenburn and also theme a lot of the editor to follow the "Zenburn way". In the screenshots below, I'll show some comparisions with the textmate port, vim, and this theme.
+
+## Screenshots
+
+### Full
+!["Full VS Code for Zenburn"][3]
+
+### TypeScript
+!["TypeScript Screenshot"][6]
+
+### JavaScript
+!["CSS"][5]
+
+### CSS
+!["CSS"][4]
+
+### HTML
+!["HTML Screenshot"][7]
+
+## Comparisons
+
+In this section, I'll first show the vim screenshot followed by the textmate version of that. Afterwards, I'll show the screenshot of this themes version of the language (so that you can see what was enhanced).
+
+### TypeScript
+
+**Vim**
+
+!["TypeScript Vim Screenshot"][14]
+
+**TextMate Port**
+
+!["TypeScript TextMate Screenshot"][10]
+
+**This Theme**
+
+!["TypeScript Screenshot"][6]
+
+### JavaScript
+
+**Vim**
+
+!["JavaScript Vim Screenshot"][13]
+
+**TextMate Port**
+
+!["JavaScript TextMate Screenshot"][9]
+
+**This Theme**
+
+!["JavaScript Screenshot"][5]
+
+### CSS
+
+**Vim**
+
+!["CSS Vim Screenshot"][12]
+
+**TextMate Port**
+
+!["CSS TextMate Screenshot"][8]
+
+**This Theme**
+
+!["CSS Screenshot"][4]
+
+### HTML
+
+**Vim**
+
+!["CSS Vim Screenshot"][15]
+
+**TextMate Port**
+
+!["CSS TextMate Screenshot"][11]
+
+**This Theme**
+
+!["CSS Screenshot"][7]
+
+## Gratitude
+
+This theme is in no way perfect. I based this theme on the [TextMate port][1]. I appreciate all of their work and that their theme existed so that I could create this. Thanks to [Zenburn][0] for their awesome theme that I was able to port to VS Code.
+
+## License
+
+MIT
+
+
+[0]: http://kippura.org/zenburnpage/ "Zenburn main website"
+[1]: https://github.com/gerane/VSCode-ZenburnTheme "Zenburn for VS Code"
+[2]: https://github.com/jnurmine/Zenburn "Zenburn for Vim"
+
+[3]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/full.png "New Zenburn for VS Code"
+[4]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/css.png "CSS Screenshot"
+[5]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/js.png "JavaScript Screenshot"
+[6]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/ts.png "TypeScript Screenshot"
+[7]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/html.png "HTML Screenshot"
+[8]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/css-other.png "CSS TextMate Screenshot"
+[9]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/js-other.png "JavaScript TextMate Screenshot"
+[10]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/ts-other.png "TypeScript TextMate Screenshot"
+[11]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/html-other.png "HTML TextMate Screenshot"
+[12]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/css-vim.png "CSS Vim Screenshot"
+[13]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/js-vim.png "JavaScript Vim Screenshot"
+[14]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/ts-vim.png "TypeScript Vim Screenshot"
+[15]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/html-vim.png "HTML Vim Screenshot"

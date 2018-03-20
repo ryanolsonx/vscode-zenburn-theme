@@ -7,7 +7,7 @@
     "editor.foreground": "#dedede",
     "editor.selectionBackground": "#8383839c",
     "editor.lineHighlightBackground": "#303030",
-    "editorCursor.foreground": "#d6d6d6",
+    "editorCursor.foreground": "#8faf9f",
     "editorWhitespace.foreground": "#a5a5a552",
     "editorLineNumber.foreground": "#90907e",
     "editorActiveLineNumber.foreground": "#9e8f68",

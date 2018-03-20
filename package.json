@@ -1,7 +1,7 @@
 {
     "name": "vscode-zenburn-theme",
-    "displayName": "vscode-zenburn-theme",
-    "description": "",
+    "displayName": "Zenburn",
+    "description": "Optimized Zenburn theme for VS Code",
     "version": "0.0.1",
     "publisher": "ryanolsonx",
     "engines": {
@@ -18,5 +18,6 @@
                 "path": "./themes/Zenburn-color-theme.json"
             }
         ]
-    }
+    },
+    "license": "MIT"
 }
