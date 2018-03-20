@@ -4,7 +4,7 @@
 - Improve python support
 
 ## [0.0.1]
-- Initial release with great support for:
+- Initial release. Better theming of editor elements. With great support for:
   - Javascript
   - TypeScript
   - TypeScript React
