@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.3]
+- Improve readme
+
 ## [0.0.2]
 - Improve python support
 

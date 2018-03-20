@@ -5,10 +5,25 @@
 
 I really enjoy [Zenburn][0]. I noticed that the textmate port in the [VS Code marketplace][1] was lacking in many areas and hoped that I could align the syntax with the [Vim][2] version of zenburn and also theme a lot of the editor to follow the "Zenburn way". In the screenshots below, I'll show some comparisions with the textmate port, vim, and this theme.
 
-## Screenshots
-
-### Full
 !["Full VS Code for Zenburn"][3]
+
+No:
+  - dayglo vomit
+  - black, red, blue and green on screaming white background
+  - headache
+  - watery, squinting eyes
+  - the "I wanna run away" feeling
+
+Yes:
+  + alien fruit salad
+  + harmonious colors help with concentration
+  + improved focus
+  + stay longer in the zone
+  + more productivity
+  + looks good
+  + etc.
+
+## Screenshots
 
 ### TypeScript
 !["TypeScript Screenshot"][6]
