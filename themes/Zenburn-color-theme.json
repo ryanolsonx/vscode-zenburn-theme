@@ -19,6 +19,7 @@
     "activityBar.background": "#313633",
     "activityBarBadge.background": "#7f9f7f",
     "activityBarBadge.foreground": "#313633",
+    "sideBar.background": "#3a3a3a",
     "terminal.foreground": "#dcdccc",
     "terminal.selectionBackground": "#686868aa",
     "editorGutter.modifiedBackground": "#fffb9d",
@@ -35,7 +36,9 @@
     "terminal.ansiBrightYellow": "#f0dfaf",
     "terminal.ansiBrightBlue": "#8cd0d3",
     "terminal.ansiBrightMagenta": "#dca3a3",
-    "terminal.ansiBrightCyan": "#8cd0d3"
+    "terminal.ansiBrightCyan": "#8cd0d3",
+    "gitDecoration.modifiedResourceForeground": "#fffb9d",
+    "gitDecoration.untrackedResourceForeground": "#87ae86"
   },
   "tokenColors": [
     {
