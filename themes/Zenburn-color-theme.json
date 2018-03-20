@@ -787,6 +787,39 @@
       "settings": {
         "fontStyle": ""
       }
+    },
+    {
+      "scope": "keyword.control.flow.python",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c3bf9f"
+      }
+    },
+    {
+      "scope": "keyword.control.import.python",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dfaf8f"
+      }
+    },
+    {
+      "scope": "storage.type.function.python",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#e3ceab"
+      }
+    },
+    {
+      "scope": "entity.name.function.python",
+      "settings": {
+        "foreground": "#efef8f"
+      }
+    },
+    {
+      "scope": "support.function.builtin.python",
+      "settings": {
+        "foreground": "#efef8f"
+      }
     }
   ]
 }

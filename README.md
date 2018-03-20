@@ -14,10 +14,13 @@ I really enjoy [Zenburn][0]. I noticed that the textmate port in the [VS Code ma
 !["TypeScript Screenshot"][6]
 
 ### JavaScript
-!["CSS"][5]
+!["JavaScript Screenshot"][5]
+
+### Python
+!["Python Screenshot"][16]
 
 ### CSS
-!["CSS"][4]
+!["CSS Screenshot"][4]
 
 ### HTML
 !["HTML Screenshot"][7]
@@ -53,6 +56,20 @@ In this section, I'll first show the vim screenshot followed by the textmate ver
 **This Theme**
 
 !["JavaScript Screenshot"][5]
+
+### Python
+
+**Vim**
+
+!["Python Vim Screenshot"][18]
+
+**TextMate Port**
+
+!["Python TextMate Screenshot"][17]
+
+**This Theme**
+
+!["Python Screenshot"][16]
 
 ### CSS
 
@@ -108,3 +125,6 @@ MIT
 [13]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/js-vim.png "JavaScript Vim Screenshot"
 [14]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/ts-vim.png "TypeScript Vim Screenshot"
 [15]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/html-vim.png "HTML Vim Screenshot"
+[16]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/py.png "Python Screenshot"
+[17]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/py-other.png "Python TextMate Screenshot"
+[18]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/py-vim.png "Python Vim Screenshot"
