@@ -1,7 +1,10 @@
 # Change Log
 
-## [0.0.3]
+## [0.0.4]
 - Enhance git line changed color (so that it isn't so bright)
+
+## [0.0.3]
+- Changelog improvements
 
 ## [0.0.2]
 - Improve python support
