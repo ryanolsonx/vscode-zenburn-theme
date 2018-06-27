@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.5]
+- Fix "editor unnecessary color" coloring
+
 ## [0.0.4]
 - Enhance git line changed color (so that it isn't so bright)
 
