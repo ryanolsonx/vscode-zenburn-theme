@@ -1,6 +1,7 @@
 {
 	"type": "dark",
 	"colors": {
+		"editorUnnecessary.foreground": "#8e8e8e",
 		"badge.background": "#7f9f7f",
 		"badge.foreground": "#313633",
 		"editor.background": "#3f3f3f",
