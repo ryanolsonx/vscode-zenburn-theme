@@ -1,31 +1,36 @@
 {
-    "name": "zenburn",
-    "version": "0.0.5",
-    "displayName": "Zenburn",
-    "description": "Optimized Zenburn theme for VS Code",
-    "publisher": "ryanolsonx",
-    "repository": "https://github.com/ryanolsonx/vscode-zenburn-theme",
-    "license": "MIT",
-    "icon": "icon.png",
-    "keywords": [
-        "zenburn",
-        "zen",
-        "dark",
-        "low contrast"
-    ],
-    "engines": {
-        "vscode": "^1.20.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Zenburn",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Zenburn-color-theme.json"
-            }
-        ]
-    }
+  "name": "zenburn",
+  "version": "0.0.5",
+  "displayName": "Zenburn",
+  "description": "Optimized Zenburn theme for VS Code",
+  "publisher": "ryanolsonx",
+  "repository": "https://github.com/ryanolsonx/vscode-zenburn-theme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "zenburn",
+    "zen",
+    "dark",
+    "low contrast"
+  ],
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenburn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenburn.json"
+      },
+      {
+        "label": "Zenburn (No Bold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenburn-nobold.json"
+      }
+    ]
+  }
 }
