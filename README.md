@@ -5,6 +5,8 @@
 
 I really enjoy [Zenburn][0]. I noticed that the textmate port in the [VS Code marketplace][1] was lacking in many areas and hoped that I could align the syntax with the [Vim][2] version of zenburn and also theme a lot of the editor to follow the "Zenburn way". In the screenshots below, I'll show some comparisions with the textmate port, vim, and this theme.
 
+**I no longer use VS Code. If you'd like to contribute improvements as a PR, I'll gladly merge them. Thanks!**
+
 ## Screenshots
 
 ### Full
