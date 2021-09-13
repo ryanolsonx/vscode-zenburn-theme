@@ -1,8 +1,7 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
-    "editorUnnecessary.foreground": "#8e8e8e",
-    "badge.background": "#7f9f7f",
     "badge.foreground": "#313633",
     "editor.background": "#3f3f3f",
     "editor.foreground": "#dedede",
@@ -11,7 +10,7 @@
     "editorCursor.foreground": "#8faf9f",
     "editorWhitespace.foreground": "#a5a5a552",
     "editorLineNumber.foreground": "#90907e",
-    "editorActiveLineNumber.foreground": "#9e8f68",
+    "editorLineNumber.activeForeground": "#9e8f68",
     "editorSuggestWidget.background": "#2c2e2e",
     "editorSuggestWidget.selectedBackground": "#242424",
     "editorSuggestWidget.highlightForeground": "#dfdfbf",
@@ -21,6 +20,8 @@
     "statusBar.foreground": "#87ae86",
     "statusBar.background": "#2e3330",
     "statusBar.noFolderBackground": "#2e3330",
+    "breadcrumbPicker.background": "#3f3f3f",
+    "breadcrumb.focusForeground": "#9e8f68",
     "activityBar.background": "#313633",
     "activityBarBadge.background": "#7f9f7f",
     "activityBarBadge.foreground": "#313633",
@@ -52,333 +53,307 @@
   },
   "tokenColors": [
     {
+      "name": "Comment",
+      "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#dededeff",
-        "background": "#3f3f3fff"
+        "foreground": "#7f9f7f"
       }
-    },
-    {
-        "name": "Comment",
-        "scope": "comment, punctuation.definition.comment",
-        "settings": {
-          "foreground": "#7f9f7f"
-        },
-    },
-    {
-        "name": "Constant",
-        "scope": "constant.language, support.constant, constant.other.color, entity.name.type.variant.ocaml, source.rust variable.language.rust, support.type.rust, source.elixir constant.other.symbol.elixir, source.elixir constant.other.symbol.elixir punctuation.definition.constant.elixir, source.elixir variable.language.elixir, source.elixir constant.other.keywords.elixir",
-        "settings": {
-          "foreground": "#dca3a3",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "String",
-        "scope": "string, punctuation.definition.string.begin, punctuation.definition.string.end",
-        "settings": {
-          "foreground": "#cc9393"
-        },
-    },
-    {
-        "name": "Character",
-        "scope": "constant.character, source.scss keyword.operator.ampersand, source.css keyword.operator.ampersand",
-        "settings": {
-          "foreground": "#dca3a3",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Number",
-        "scope": "constant.numeric, storage.type.numeric, source.scss keyword.other.unit, source.css keyword.other.unit",
-        "settings": {
-          "foreground": "#8cd0d3"
-        },
-    },
-    {
-        "name": "Boolean",
-        "scope": "constant.language.boolean",
-        "settings": {
-          "foreground": "#dca3a3"
-        },
-    },
-    {
-        "name": "Float",
-        "scope": "meta.number.float.decimal constant.numeric, punctuation.separator.decimal, markup.underline.link",
-        "settings": {
-          "foreground": "#c0bed1"
-        },
-    },
-
-    
-    {
-        "name": "Identifier",
-        "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js, variable.other.php, variable.parameter.php, variable.language.php, meta.function.type-declaration.haskell entity.name.function.haskell, source.haskell meta.name.haskell, entity.name.type.fsharp",
-        "settings": {
-          "foreground": "#efdcbc"
-        },
-    },
-    {
-        "name": "Function",
-        "scope": "keyword.declaration.function, storage.type.function.js, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure, entity.name.function.elm, source.elixir meta.function.public.elixir entity.name.function.public.elixir, source.java entity.name.function.java",
-        "settings": {
-          "foreground": "#efef8f"
-        },
-    },
-
-    
-    {
-        "name": "Conditional",
-        "scope": "keyword.control.conditional",
-        "settings": {
-          "foreground": "#f0dfaf",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Repeat",
-        "scope": "keyword.control.loop, source.scss keyword.control.flow.sass",
-        "settings": {
-          "foreground": "#ffd7a7",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Label",
-        "scope": "keyword.control.conditional.case, keyword.control.conditional.default, source.json meta.mapping.key.json string.quoted.double.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.begin.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json",
-        "settings": {
-          "foreground": "#dfcfaf"
-        },
-    },
-    {
-        "name": "Operator",
-        "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base, keyword.operator",
-        "settings": {
-          "foreground": "#f0efd0"
-        },
-    },
-    {
-        "name": "Keyword",
-        "scope": "keyword, constant.other.keyword.clojure - (keyword.operator | keyword.operator.word)",
-        "settings": {
-          "foreground": "#f0dfaf",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Statement",
-        "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - (keyword.control.import-export|keyword.control.import|keyword.control.export)", // keyword.control
-        "settings": {
-          "foreground": "#e3ceab"
-        },
-    },
-    {
-        "name": "Exception",
-        "scope": "keyword.control.exception.try, keyword.control.trycatch.js, keyword.control.exception.catch, text.html.basic entity.name.tag.script, source.cs keyword.control.trycatch",
-        "settings": {
-          "foreground": "#c3bf9f",
-          "font_style": "bold"
-        },
-    },
-
-    {
-        "name": "PreProc",
-        "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-class.css, entity.other.pseudo-element.css, keyword.control.directive.css punctuation.definition.keyword.css, keyword.control.directive.css, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php, source.haskell meta.preprocessor.c, source.haskell punctuation.definition.preprocessor.c, source.haskell meta.preprocessor.haskell",
-        "settings": {
-          "foreground": "#ffcfaf"
-        },
-    },
-    {
-        "name": "Include",
-        "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.js, keyword.control.export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp, source.cs keyword.control.import.cs, source.go keyword.other.import.go, source.rust meta.path.rust, meta.declaration.module.elm keyword.other.elm, meta.import.elm keyword.other.elm, source.elm meta.import.elm keyword.import.elm, source.java meta.package-declaration.java keyword.other.package.java, source.java meta.import.java keyword.control.import.java",
-        "settings": {
-          "foreground": "#dfaf8f",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Define",
-        "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure, meta.module.elixir keyword.control.module.elixir",
-        "settings": {
-          "foreground": "#ffcfaf"
-        },
-    },
-    {
-        "name": "Macro",
-        "scope": "support.macro.rust",
-        "settings": {
-          "foreground": "#ffcfaf",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "PreCondit",
-        "scope": "keyword.control.import.c, meta.preprocessor.c, keyword.control.import.c++, meta.preprocessor.c++",
-        "settings": {
-          "foreground": "#dfaf8f",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Type",
-        "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp, source.elixir entity.name.type, source.java support.class.java",
-        "settings": {
-          "foreground": "#dfdfbf",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "StorageClass",
-        "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp",
-        "settings": {
-          "foreground": "#c3bf9f",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Structure",
-        "scope": "keyword.declaration.enum, keyword.declaration.struct, keyword.declaration.union, variable.language.this.js, keyword.declaration.type.haskell",
-        "settings": {
-          "foreground": "#efefaf",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Special",
-        "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css, variable.function.clojure",
-        "settings": {
-          "foreground": "#cfbfaf"
-        },
-    },
-    {
-        "name": "SpecialComment",
-        "scope": "variable.annotation",
-        "settings": {
-          "foreground": "#82a282",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "Delimiter",
-        "scope": "markup.heading punctuation.definition.heading, punctuation.definition.raw.begin, punctuation.definition.raw.end",
-        "settings": {
-          "foreground": "#8f8f8f"
-        },
-    },
-    {
-        "name": "Title",
-        "scope": "entity.name.section.markdown",
-        "settings": {
-          "foreground": "#efefef",
-          "font_style": "bold"
-        },
-    },
+  },
+  {
+      "name": "Constant",
+      "scope": "constant.language, support.constant, constant.other.color, entity.name.type.variant.ocaml, source.rust variable.language.rust, support.type.rust, source.elixir constant.other.symbol.elixir, source.elixir constant.other.symbol.elixir punctuation.definition.constant.elixir, source.elixir variable.language.elixir, source.elixir constant.other.keywords.elixir, source.ruby constant.other.symbol, source.ruby punctuation.definition.constant",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dca3a3",
+      }
+  },
+  {
+      "name": "String",
+      "scope": "string, punctuation.definition.string.begin, punctuation.definition.string.end",
+      "settings": {
+        "foreground": "#cc9393"
+      }
+  },
+  {
+      "name": "Character",
+      "scope": "constant.character, source.scss keyword.operator.ampersand, source.css keyword.operator.ampersand",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dca3a3",
+      }
+  },
+  {
+      "name": "Number",
+      "scope": "constant.numeric, storage.type.numeric, source.scss keyword.other.unit, source.css keyword.other.unit",
+      "settings": {
+        "foreground": "#8cd0d3"
+      }
+  },
+  {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#dca3a3"
+      }
+  },
+  {
+      "name": "Float",
+      "scope": "meta.number.float.decimal constant.numeric, punctuation.separator.decimal, markup.underline.link",
+      "settings": {
+        "foreground": "#c0bed1"
+      }
+  },
 
 
-//  Typedef    A typedef
+  {
+      "name": "Identifier",
+      "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js, variable.other.php, variable.parameter.php, variable.language.php, meta.function.type-declaration.haskell entity.name.function.haskell, source.haskell meta.name.haskell, entity.name.type.fsharp, punctuation.definition.variable.ruby, variable.other.readwrite.instance.ruby",
+      "settings": {
+        "foreground": "#efdcbc"
+      }
+  },
+  {
+      "name": "Function",
+      "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure, entity.name.function.elm, source.elixir meta.function.public.elixir entity.name.function.public.elixir, source.java entity.name.function.java, source.sql support.function, source.ruby entity.name.function",
+      "settings": {
+        "foreground": "#efef8f"
+      }
+  },
 
-//  SpecialChar    special character in a constant
-//  Debug      debugging statements
 
-    {
-        "name": "Invalid",
-        "scope": "invalid",
-        "settings": {
-          "foreground": "#fff",
-          "background": "#cc9393"
-        },
-    },
-    {
-        "name": "Invalid deprecated",
-        "scope": "invalid.deprecated",
-        "settings": {
-          "foreground": "#fff",
-          "background": "#dfaf8f"
-        },
-    },
-    {
-        "name": "markup bold",
-        "scope": "markup.bold",
-        "settings": {
-          "font_style": "bold"
-        }
-    },
-    {
-        "name": "markup italic",
-        "scope": "markup.italic",
-        "settings": {
-          "font_style": "italic"
-        }
-    },
-    {
-        "name": "markup underline",
-        "scope": "meta.link.inline.description.markdown",
-        "settings": {
-          "font_style": "underline"
-        }
-    },
-    {
-        "name": "markup bold/italic",
-        "scope": "markup.italic markup.bold | markup.bold markup.italic",
-        "settings": {
-          "font_style": "bold italic"
-        }
-    },
-    {
-        "name": "markup bold/underline",
-        "scope": "markup.underline markup.bold | markup.bold markup.underline",
-        "settings": {
-          "font_style": "bold underline"
-        }
-    },
-    {
-        "name": "markup italic/underline",
-        "scope": "markup.underline markup.italic | markup.italic markup.underline",
-        "settings": {
-          "font_style": "italic underline"
-        }
-    },
-    {
-        "name": "markup bold/italic/underline",
-        "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
-        "settings": {
-          "font_style": "bold italic underline"
-        }
-    },
-    
-    {
-        "name": "diff.header",
-        "scope": "meta.diff, meta.diff.header",
-        "settings": {
-          "foreground": "#e3ceab"
-        },
-    },
-    {
-        "name": "diff.deleted",
-        "scope": "markup.deleted",
-        "settings": {
-          "foreground": "#cfbfaf"
-        },
-    },
-    {
-        "name": "diff.inserted",
-        "scope": "markup.inserted",
-        "settings": {
-          "foreground": "#efdcbc",
-          "font_style": "bold"
-        },
-    },
-    {
-        "name": "diff.changed",
-        "scope": "markup.changed",
-        "settings": {
-          "foreground": "#ffcfaf"
-        },
-    },
-    {
-        "scope": "message.error",
-        "settings": {
-          "foreground": "#cc9393"
-        },
-    },
+  {
+      "name": "Conditional",
+      "scope": "keyword.control.conditional",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#f0dfaf",
+      }
+  },
+  {
+      "name": "Repeat",
+      "scope": "keyword.control.loop, source.scss keyword.control.flow.sass",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffd7a7",
+      }
+  },
+  {
+      "name": "Label",
+      "scope": "keyword.control.conditional.case, keyword.control.conditional.default, source.json meta.mapping.key.json string.quoted.double.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.begin.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json",
+      "settings": {
+        "foreground": "#dfcfaf"
+      }
+  },
+  {
+      "name": "Operator",
+      "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base - keyword.operator",
+      "settings": {
+        "foreground": "#f0efd0"
+      }
+  },
+  {
+      "name": "Keyword",
+      "scope": "keyword, constant.other.keyword.clojure - keyword.operator - keyword.operator.word - keyword.control.flow.return.js - keyword.operator.logical",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#f0dfaf",
+      }
+  },
+  {
+      "name": "Statement",
+      "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - keyword.control.import-export, source.sql keyword.other, source.sql keyword.operator.assignment",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#e3ceab",
+      }
+  },
+  {
+      "name": "Exception",
+      "scope": "keyword.control.exception.try, keyword.control.exception.catch, text.html.basic entity.name.tag.script, source.cs keyword.control.trycatch",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c3bf9f",
+      }
+  },
+
+  {
+      "name": "PreProc",
+      "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-class.css, entity.other.pseudo-element.css, keyword.control.directive.css punctuation.definition.keyword.css, keyword.control.directive.css, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php, source.haskell meta.preprocessor.c, source.haskell punctuation.definition.preprocessor.c, source.haskell meta.preprocessor.haskell",
+      "settings": {
+        "foreground": "#ffcfaf"
+      }
+  },
+  {
+      "name": "Include",
+      "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp, source.cs keyword.control.import.cs, source.go keyword.other.import.go, source.rust meta.path.rust, meta.declaration.module.elm keyword.other.elm, meta.import.elm keyword.other.elm, source.elm meta.import.elm keyword.import.elm, source.java meta.package-declaration.java keyword.other.package.java, source.java meta.import.java keyword.control.import.java",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dfaf8f",
+      }
+  },
+  {
+      "name": "Define",
+      "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure, meta.module.elixir keyword.control.module.elixir, source.ruby keyword.declaration.class, source.ruby keyword.declaration.function, source.ruby keyword.control.block.end",
+      "settings": {
+        "foreground": "#ffcfaf"
+      }
+  },
+  {
+      "name": "Macro",
+      "scope": "support.macro.rust, source.ruby keyword.other.special-method",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffcfaf",
+      }
+  },
+  {
+      "name": "PreCondit",
+      "scope": "keyword.control.import.c, meta.preprocessor.c, keyword.control.import.c++, meta.preprocessor.c++",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dfaf8f",
+      }
+  },
+  {
+      "name": "Type",
+      "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp, source.elixir entity.name.type, source.java support.class.java, entity.name.class.ruby, entity.other.inherited-class.ruby, support.class.ruby",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#dfdfbf",
+      }
+  },
+  {
+      "name": "StorageClass",
+      "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp, keyword.declaration",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c3bf9f",
+      }
+  },
+  {
+      "name": "Structure",
+      "scope": "keyword.declaration.enum, keyword.declaration.struct, keyword.declaration.union, variable.language.this.js, keyword.declaration.type.haskell",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#efefaf",
+      }
+  },
+  {
+      "name": "Special",
+      "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css, variable.function.clojure",
+      "settings": {
+        "foreground": "#cfbfaf"
+      }
+  },
+  {
+      "name": "SpecialComment",
+      "scope": "variable.annotation",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#82a282",
+      }
+  },
+  {
+      "name": "Delimiter",
+      "scope": "markup.heading punctuation.definition.heading, punctuation.definition.raw.begin, punctuation.definition.raw.end, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+      "settings": {
+        "foreground": "#8f8f8f"
+      }
+  },
+  {
+      "name": "Title",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#efefef",
+      }
+  },
+
+  // Overrides for things that aren't working well.
+  {
+      "name": "Overrides",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#dedede",
+      }
+  },
+
+
+  //  Typedef    A typedef
+
+  //  SpecialChar    special character in a constant
+  //  Debug      debugging statements
+
+  {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#cc9393"
+      }
+  },
+  {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "#cc9393"
+      }
+  },
+  {
+      "name": "markup bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+  },
+  {
+      "name": "markup italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+  },
+  {
+      "name": "markup underline",
+      "scope": "meta.link.inline.description.markdown",
+      "settings": {
+        "fontStyle": "underline"
+      }
+  },
+  {
+      "name": "markup bold/italic",
+      "scope": "markup.italic markup.bold | markup.bold markup.italic",
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+  },
+  {
+      "name": "markup bold/underline",
+      "scope": "markup.underline markup.bold | markup.bold markup.underline",
+      "settings": {
+        "fontStyle": "bold underline"
+      }
+  },
+  {
+      "name": "markup italic/underline",
+      "scope": "markup.underline markup.italic | markup.italic markup.underline",
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+  },
+  {
+      "name": "markup bold/italic/underline",
+      "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+      "settings": {
+        "fontStyle": "bold italic underline"
+      }
+  },
+  {
+      "name": "diff.header",
+      "scope": "meta.diff, meta.diff.header",
+      "settings": {
+        "foreground": "#e3ceab"
+      }
+  }
   ]
 }
