@@ -1,13 +1,9 @@
 # Change Log
 
-## [2.1.0]
+## [2.0.0]
 
 - Update from Sublime Text Zenburn Color Scheme (this is a color scheme that accurately ports Zenburn from Vim that I created)
 - Add bracket highlighting that matches Zenburn colors
-
-## [2.0.0]
-
-- Started from the ground-up with the TM scopes to accurately port the Zenburn theme from Vim
 - Removed the no bold theme (if you really like this, create an issue)
 
 ## [1.0.1]
