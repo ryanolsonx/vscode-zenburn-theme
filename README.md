@@ -1,38 +1,33 @@
-# VS Code Zenburn Theme
+# Zenburn
 
-> Zenburn is a low-contrast color scheme for Vim. It's easy for your eyes and designed to keep you in the zone for long programming sessions.
+Zenburn is a low-contrast color scheme created by Jani Nurminen. It’s easy for your eyes and designed to keep you in the zone for long programming sessions.
 
+## Zenburn for Visual Studio Code
 
-I really enjoy [Zenburn][0] and decided to port it to VS Code!
+This color scheme is created for Visual Studio Code.
 
-## Screenshots
+!["VS Code for Zenburn"][https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshot.png]
 
-### Full
-!["Full VS Code for Zenburn"][1]
+## Philosophy
 
-### TypeScript
-!["TypeScript Screenshot"][2]
+### No:
 
-### JavaScript
-!["JavaScript Screenshot"][3]
+  - dayglo vomit
+  - black, red, blue and green on screaming white background
+  - headache
+  - watery, squinting eyes
+  - the "I wanna run away" feeling
 
-### Python
-!["Python Screenshot"][4]
+### Yes:
 
-### CSS
-!["CSS Screenshot"][5]
-
-### HTML
-!["HTML Screenshot"][6]
-
+  + alien fruit salad
+  + harmonious colors help with concentration
+  + improved focus
+  + stay longer in the zone
+  + more productivity
+  + looks good
+  + etc.
+  
 ## License
 
 MIT
-
-[0]: http://kippura.org/zenburnpage/ "Zenburn main website"
-[1]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/full.png "New Zenburn for VS Code"
-[2]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/ts.png "TypeScript Screenshot"
-[3]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/js.png "JavaScript Screenshot"
-[4]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/css.png "CSS Screenshot"
-[5]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/py.png "Python Screenshot"
-[6]: https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshots/html.png "HTML Screenshot"
