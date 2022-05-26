@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.0]
+
+- Vastly improve workspace colors
+
 ## [2.0.0]
 
 - Update from Sublime Text Zenburn Color Scheme (this is a color scheme that accurately ports Zenburn from Vim that I created)
