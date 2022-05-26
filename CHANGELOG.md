@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.2]
+
+- Simplify README with single screenshot
+
 ## [2.1.1]
 
 - Cleanup README screenshots
