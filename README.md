@@ -6,7 +6,7 @@ Zenburn is a low-contrast color scheme created by Jani Nurminen. It’s easy for
 
 This color scheme is created for Visual Studio Code.
 
-!["VS Code for Zenburn"][https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshot.png]
+![](https://github.com/ryanolsonx/vscode-zenburn-theme/raw/master/screenshot.png)
 
 ## Philosophy
 
