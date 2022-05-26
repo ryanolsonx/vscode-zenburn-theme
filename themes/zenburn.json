@@ -49,7 +49,10 @@
     "gitDecoration.conflictingResourceForeground": "#CC9393",
     "gitDecoration.deletedResourceForeground": "#CC9393",
     "gitDecoration.submoduleResourceForeground": "#fffb9d",
-    "gitDecoration.ignoredResourceForeground": "#7f9f7f"
+    "gitDecoration.ignoredResourceForeground": "#7f9f7f",
+    "editorBracketHighlight.foreground1": "#cc9393",
+    "editorBracketHighlight.foreground2": "#8cd0d3",
+    "editorBracketHighlight.foreground3": "#f0dfaf"
   },
   "tokenColors": [
     {
