@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.1]
+
+- Cleanup README screenshots
+
 ## [2.1.0]
 
 - Vastly improve workspace colors
