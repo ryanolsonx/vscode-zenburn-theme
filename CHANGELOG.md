@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.4]
+
+- Add Github action for deploy
+
 ## [2.1.3]
 
 - Fix README
