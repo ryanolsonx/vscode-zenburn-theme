@@ -1,36 +1,36 @@
 {
-	"name": "zenburn",
-	"version": "2.1.4",
-	"displayName": "Zenburn",
-	"description": "Optimized Zenburn theme for VS Code",
-	"publisher": "ryanolsonx",
-	"repository": "https://github.com/ryanolsonx/vscode-zenburn-theme",
-	"license": "MIT",
-	"icon": "icon.png",
-	"keywords": [
-		"zenburn",
-		"zen",
-		"dark",
-		"low contrast"
-	],
-	"engines": {
-		"vscode": "^1.20.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Zenburn",
-				"uiTheme": "vs-dark",
-				"path": "./themes/zenburn.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "9be673da-cf39-4f71-83c3-b2ec5241813a",
-		"publisherDisplayName": "Ryan Olson",
-		"publisherId": "d4b4d2bb-55a5-4fbd-b44b-46713208148e"
-	}
+  "name": "zenburn",
+  "version": "2.2.0",
+  "displayName": "Zenburn",
+  "description": "Optimized Zenburn theme for VS Code",
+  "publisher": "ryanolsonx",
+  "repository": "https://github.com/ryanolsonx/vscode-zenburn-theme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "zenburn",
+    "zen",
+    "dark",
+    "low contrast"
+  ],
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenburn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenburn.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "9be673da-cf39-4f71-83c3-b2ec5241813a",
+    "publisherDisplayName": "Ryan Olson",
+    "publisherId": "d4b4d2bb-55a5-4fbd-b44b-46713208148e"
+  }
 }
